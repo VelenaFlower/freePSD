@@ -407,3 +407,45 @@ li {
     background-color: transparent;
     color: #282828;
 }
+.advantages {
+    padding: 55px 0 40px;
+    background: url("../assets/images/advantages-fon.jpg") no-repeat center;
+    min-height: 285px;
+    background-size: cover;
+}
+.advantages__inner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #fff;
+}
+.advantages-item {
+    max-width: 360px;
+    padding: 0 20px;
+}
+.advantages__title {
+    position: relative;
+    padding: 60px 0 15px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'RobotoMedium', sans-serif;
+}
+.advantages__title:before {
+    content: "\f00c";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffc222;
+    transform: translateX(-50%);
+    font-family: 'icomoon',sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+}
+.advantages__text {
+    line-height: 24px;
+    color: #d3d2d2;
+    letter-spacing: .1px;
+}
