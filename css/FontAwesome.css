@@ -2,9 +2,9 @@
   font-family: 'icomoon';
   src:  url('../assets/fonts/FontAwesome/icomoon.eot?jilhky');
   src:  url('../assets/fonts/FontAwesome/icomoon.eot?jilhky#iefix') format('embedded-opentype'),
-    url('../assets/fonts/FontAwesome/icomoon.ttf?jilhky') format('truetype'),
-    url('../assets/fonts/FontAwesome/icomoon.woff?jilhky') format('woff'),
-    url('../assets/fonts/FontAwesome/icomoon.svg?jilhky#icomoon') format('svg');
+  url('../assets/fonts/FontAwesome/icomoon.ttf?jilhky') format('truetype'),
+  url('../assets/fonts/FontAwesome/icomoon.woff?jilhky') format('woff'),
+  url('../assets/fonts/FontAwesome/icomoon.svg?jilhky#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -54,6 +54,9 @@
 }
 .icon-angle-right:before {
   content: "\f105";
+}
+.icon-angle-down:before {
+  content: "\f107";
 }
 .icon-quote-right:before {
   content: "\f10e";
